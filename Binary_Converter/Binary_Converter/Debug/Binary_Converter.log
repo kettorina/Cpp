@@ -1,0 +1,4 @@
+﻿  Binary_Converter.cpp
+c:\users\jzenk\documents\visual studio 2015\projects\binary_converter\binary_converter\binary_converter.cpp(27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Binary_Converter.vcxproj -> C:\Users\jzenk\Documents\Visual Studio 2015\Projects\Binary_Converter\Debug\Binary_Converter.exe
+  Binary_Converter.vcxproj -> C:\Users\jzenk\Documents\Visual Studio 2015\Projects\Binary_Converter\Debug\Binary_Converter.pdb (Full PDB)
