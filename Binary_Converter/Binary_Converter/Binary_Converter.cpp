@@ -9,7 +9,7 @@ using namespace std;
 int input() {
 	int x = 0;
 	do {
-		cout << "Enter a number beetween 0 and 255 ";
+		cout << "Enter a number: ";
 		cin >> x;
 	}
 
@@ -19,8 +19,8 @@ int input() {
 }
 
 void convertBinary(int num) {
+	int exp = (int) log2(num);
 	int base = 2;
-	int exp = 8;
 	for (exp; exp >= 0; exp--) {
 		if (num >= pow(base, exp)) {
 			cout << 1; 
@@ -31,7 +31,7 @@ void convertBinary(int num) {
 		}
 
 	}
-	
+	cout << "\n";
 }
 
 int main()
